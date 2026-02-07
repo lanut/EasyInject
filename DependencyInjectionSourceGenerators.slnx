@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/CommonTest/">
+    <Project Path="Test/CommonServices1/CommonServices1.csproj" />
+    <Project Path="Test/CommonTest/CommonTest.csproj" />
+    <Project Path="Test/TempServices2/TempServices2.csproj" />
+  </Folder>
+  <Folder Name="/Readme/">
+    <File Path="README.md"/>
+    <File Path="README.cn.md"/>
+  </Folder>
+  <Folder Name="/LICENSE/">
+    <File Path="LICENSE"/>
+  </Folder>
+  <Project Path="EasyInject/DependencyInjectionSourceGenerators.Sample/DependencyInjectionSourceGenerators.Sample.csproj" />
+  <Project Path="EasyInject/DependencyInjectionSourceGenerators/DependencyInjectionSourceGenerators.csproj" />
+</Solution>
