@@ -1,4 +1,4 @@
-# lanut.EasyInject
+# Lanut.EasyInject
 
 English | [中文](README.cn.md)
 
@@ -17,7 +17,7 @@ A source generator for automatically registering services for Dependency Injecti
 Add the package to your project:
 
 ```xml
-<PackageReference Include="lanut.EasyInject" Version="1.1.0" />
+<PackageReference Include="Lanut.EasyInject" Version="1.1.0" />
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Add the package to your project:
 Add the `[Injectable]` attribute to the classes you want to register.
 
 ```csharp
-using lanut.EasyInject;
+using Lanut.EasyInject;
 
 // Register as Singleton
 // If the class implements interfaces, the first one is used as the service type by default.
@@ -76,7 +76,7 @@ For example, if your project assembly name is `MyProject.Api`, the generated met
 In your `Program.cs` or `Startup.cs`:
 
 ```csharp
-using lanut.EasyInject;
+using Lanut.EasyInject;
 
 var builder = WebApplication.CreateBuilder(args);
 

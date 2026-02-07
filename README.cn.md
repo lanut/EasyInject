@@ -1,4 +1,4 @@
-# lanut.EasyInject
+# Lanut.EasyInject
 
 [English](README.md) | 中文
 
@@ -17,7 +17,7 @@
 将包添加到您的项目中：
 
 ```xml
-<PackageReference Include="lanut.EasyInject" Version="1.1.0" />
+<PackageReference Include="Lanut.EasyInject" Version="1.1.0" />
 ```
 
 ## 使用方法
@@ -27,7 +27,7 @@
 在您想要注册的类上添加 `[Injectable]` 属性。
 
 ```csharp
-using lanut.EasyInject;
+using Lanut.EasyInject;
 
 // 注册为单例 (Singleton)
 // 如果类实现了接口，默认使用第一个接口作为服务类型。
@@ -76,7 +76,7 @@ public class MyGenericService<T> : IMyGenericService<T>
 在您的 `Program.cs` 或 `Startup.cs` 中：
 
 ```csharp
-using lanut.EasyInject;
+using Lanut.EasyInject;
 
 var builder = WebApplication.CreateBuilder(args);
 
