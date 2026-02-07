@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\DISourceGenerators\DependencyInjectionSourceGenerators\DependencyInjectionSourceGenerators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
+      <ProjectReference Include="..\..\EasyInject\DependencyInjectionSourceGenerators\DependencyInjectionSourceGenerators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
       <ProjectReference Include="..\TempServices2\TempServices2.csproj" />
     </ItemGroup>
 
